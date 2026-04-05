@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_80c2bad2a667b5388e769d28f37678e0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_80c2bad2a667b5388e769d28f37678e0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_80c2bad2a667b5388e769d28f37678e0 = L.map(
+                "map_80c2bad2a667b5388e769d28f37678e0",
+                {
+                    center: [26.56, 56.25],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1c1366ae032dbe6d3b1ba6ab8de76c88 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_1c1366ae032dbe6d3b1ba6ab8de76c88.addTo(map_80c2bad2a667b5388e769d28f37678e0);
+        
+    
+            var marker_8631ae3921fb4cd8f07c391d4549f0a9 = L.marker(
+                [43.6532, -79.3832],
+                {
+}
+            ).addTo(map_80c2bad2a667b5388e769d28f37678e0);
+        
+    
+            var icon_add213719903189df01b38b9d8dae596 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "crosshairs",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d812bc871549dc5c1ac42b91bf08a927 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2fc60642656d1168a75c742ce5c98168 = $(`<div id="html_2fc60642656d1168a75c742ce5c98168" style="width: 100.0%; height: 100.0%;">             <div style='width:200px'>             <b>🏛️ BAE DP World (Dev Liman)</b><br>             <b>🔗 Domain:</b> dpworld.com<br>             <b>🌐 IP:</b> 162.159.141.157<br>             <b>📍 Konum:</b> Canada / Toronto<br>             <b>🏢 ISP:</b> Cloudflare, Inc.<br>             <b>💻 Sunucu:</b> <span style='color:red;'>cloudflare</span>             </div>             </div>`)[0];
+                popup_d812bc871549dc5c1ac42b91bf08a927.setContent(html_2fc60642656d1168a75c742ce5c98168);
+            
+        
+
+        marker_8631ae3921fb4cd8f07c391d4549f0a9.bindPopup(popup_d812bc871549dc5c1ac42b91bf08a927)
+        ;
+
+        
+    
+    
+                marker_8631ae3921fb4cd8f07c391d4549f0a9.setIcon(icon_add213719903189df01b38b9d8dae596);
+            
+    
+            var marker_f4d572eb5567270d1b214ce39f191c68 = L.marker(
+                [23.5673, 58.1724],
+                {
+}
+            ).addTo(map_80c2bad2a667b5388e769d28f37678e0);
+        
+    
+            var icon_d345179606f79b36c768269cc14e5112 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "crosshairs",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d6d8791a9aaf92cc08d3058704a8da1b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4da472cbb1152e2fc9b78aa687938c9b = $(`<div id="html_4da472cbb1152e2fc9b78aa687938c9b" style="width: 100.0%; height: 100.0%;">             <div style='width:200px'>             <b>🏛️ Umman Limanları</b><br>             <b>🔗 Domain:</b> asyad.om<br>             <b>🌐 IP:</b> 77.83.61.24<br>             <b>📍 Konum:</b> Oman / Seeb<br>             <b>🏢 ISP:</b> OMANIA<br>             <b>💻 Sunucu:</b> <span style='color:red;'>Gizlenmiş/Bulunamadı</span>             </div>             </div>`)[0];
+                popup_d6d8791a9aaf92cc08d3058704a8da1b.setContent(html_4da472cbb1152e2fc9b78aa687938c9b);
+            
+        
+
+        marker_f4d572eb5567270d1b214ce39f191c68.bindPopup(popup_d6d8791a9aaf92cc08d3058704a8da1b)
+        ;
+
+        
+    
+    
+                marker_f4d572eb5567270d1b214ce39f191c68.setIcon(icon_d345179606f79b36c768269cc14e5112);
+            
+    
+            var marker_7390a6acf29ccd3ae4f9180cc5075fb9 = L.marker(
+                [51.481785, -3.178065],
+                {
+}
+            ).addTo(map_80c2bad2a667b5388e769d28f37678e0);
+        
+    
+            var icon_9ca34201921d186c6dbcd30c69256985 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "crosshairs",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d3add50969fe6198256f8c946f21a893 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_edb20ea03bb2c77778c914c6d9db06e1 = $(`<div id="html_edb20ea03bb2c77778c914c6d9db06e1" style="width: 100.0%; height: 100.0%;">             <div style='width:200px'>             <b>🏛️ Kuveyt Liman İdaresi</b><br>             <b>🔗 Domain:</b> kpa.gov.kw<br>             <b>🌐 IP:</b> 20.254.225.239<br>             <b>📍 Konum:</b> United Kingdom / Cardiff<br>             <b>🏢 ISP:</b> Microsoft Corporation<br>             <b>💻 Sunucu:</b> <span style='color:red;'>Apache</span>             </div>             </div>`)[0];
+                popup_d3add50969fe6198256f8c946f21a893.setContent(html_edb20ea03bb2c77778c914c6d9db06e1);
+            
+        
+
+        marker_7390a6acf29ccd3ae4f9180cc5075fb9.bindPopup(popup_d3add50969fe6198256f8c946f21a893)
+        ;
+
+        
+    
+    
+                marker_7390a6acf29ccd3ae4f9180cc5075fb9.setIcon(icon_9ca34201921d186c6dbcd30c69256985);
+            
+    
+            var marker_671c7a768624cba76d0c58705a6fdd2e = L.marker(
+                [24.7453, 46.6551],
+                {
+}
+            ).addTo(map_80c2bad2a667b5388e769d28f37678e0);
+        
+    
+            var icon_8feb9550765aabd9b23bb10939a45f3c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "crosshairs",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f4b2a37cafdc3249cc3b45b8ea0ee472 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5d17c0fc681fac27625ca8b1779a479c = $(`<div id="html_5d17c0fc681fac27625ca8b1779a479c" style="width: 100.0%; height: 100.0%;">             <div style='width:200px'>             <b>🏛️ Suudi Arabistan Limanları</b><br>             <b>🔗 Domain:</b> mawani.gov.sa<br>             <b>🌐 IP:</b> 212.70.48.27<br>             <b>📍 Konum:</b> Saudi Arabia / Riyadh<br>             <b>🏢 ISP:</b> Atheer Jeraisy Backbone<br>             <b>💻 Sunucu:</b> <span style='color:red;'>Bağlantı Reddedildi (Muhtemel Güvenlik Duvarı)</span>             </div>             </div>`)[0];
+                popup_f4b2a37cafdc3249cc3b45b8ea0ee472.setContent(html_5d17c0fc681fac27625ca8b1779a479c);
+            
+        
+
+        marker_671c7a768624cba76d0c58705a6fdd2e.bindPopup(popup_f4b2a37cafdc3249cc3b45b8ea0ee472)
+        ;
+
+        
+    
+    
+                marker_671c7a768624cba76d0c58705a6fdd2e.setIcon(icon_8feb9550765aabd9b23bb10939a45f3c);
+            
+    
+            var marker_435bec90ef2d769307f4eece6a03ab38 = L.marker(
+                [25.29453, 51.51939],
+                {
+}
+            ).addTo(map_80c2bad2a667b5388e769d28f37678e0);
+        
+    
+            var icon_07b6c1272f45919eeb7ca4e9b4a84472 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "crosshairs",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_55b5301a0bd1a04caaae39fc9ea41c36 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_088239e9026e59c0c76502cfa57e5bea = $(`<div id="html_088239e9026e59c0c76502cfa57e5bea" style="width: 100.0%; height: 100.0%;">             <div style='width:200px'>             <b>🏛️ Katar Liman Yönetimi</b><br>             <b>🔗 Domain:</b> mwani.com.qa<br>             <b>🌐 IP:</b> 20.173.78.81<br>             <b>📍 Konum:</b> Qatar / Doha<br>             <b>🏢 ISP:</b> Microsoft Corporation<br>             <b>💻 Sunucu:</b> <span style='color:red;'>Gizlenmiş/Bulunamadı</span>             </div>             </div>`)[0];
+                popup_55b5301a0bd1a04caaae39fc9ea41c36.setContent(html_088239e9026e59c0c76502cfa57e5bea);
+            
+        
+
+        marker_435bec90ef2d769307f4eece6a03ab38.bindPopup(popup_55b5301a0bd1a04caaae39fc9ea41c36)
+        ;
+
+        
+    
+    
+                marker_435bec90ef2d769307f4eece6a03ab38.setIcon(icon_07b6c1272f45919eeb7ca4e9b4a84472);
+            
+    
+            var marker_f2838faf474f505a730ee0d1dfbac6d7 = L.marker(
+                [53.3498, -6.26031],
+                {
+}
+            ).addTo(map_80c2bad2a667b5388e769d28f37678e0);
+        
+    
+            var icon_24ef82a461a656a97d66e067258cfac0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "crosshairs",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_02ff1f77d81d43962e7f8dc7061e3b2d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a1eb98e68afab553bd3373f12cbe2427 = $(`<div id="html_a1eb98e68afab553bd3373f12cbe2427" style="width: 100.0%; height: 100.0%;">             <div style='width:200px'>             <b>🏛️ Bahreyn Limanları</b><br>             <b>🔗 Domain:</b> mtt.gov.bh<br>             <b>🌐 IP:</b> 108.132.42.90<br>             <b>📍 Konum:</b> Ireland / Dublin<br>             <b>🏢 ISP:</b> BellSouth.net Inc.<br>             <b>💻 Sunucu:</b> <span style='color:red;'></span>             </div>             </div>`)[0];
+                popup_02ff1f77d81d43962e7f8dc7061e3b2d.setContent(html_a1eb98e68afab553bd3373f12cbe2427);
+            
+        
+
+        marker_f2838faf474f505a730ee0d1dfbac6d7.bindPopup(popup_02ff1f77d81d43962e7f8dc7061e3b2d)
+        ;
+
+        
+    
+    
+                marker_f2838faf474f505a730ee0d1dfbac6d7.setIcon(icon_24ef82a461a656a97d66e067258cfac0);
+            
+    
+            var marker_6a8762e0d7e09511e9bca21d8949be2c = L.marker(
+                [43.6532, -79.3832],
+                {
+}
+            ).addTo(map_80c2bad2a667b5388e769d28f37678e0);
+        
+    
+            var icon_8afac2d7cd993c6d26fbe5b02ec04331 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "crosshairs",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_08c5a242a530d4e66f983ecbcef70761 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f4d0908f6f01e3185dbd3a11d54bca9f = $(`<div id="html_f4d0908f6f01e3185dbd3a11d54bca9f" style="width: 100.0%; height: 100.0%;">             <div style='width:200px'>             <b>🏛️ MarineTraffic (OSINT Aracı)</b><br>             <b>🔗 Domain:</b> marinetraffic.com<br>             <b>🌐 IP:</b> 104.18.9.70<br>             <b>📍 Konum:</b> Canada / Toronto<br>             <b>🏢 ISP:</b> Cloudflare, Inc.<br>             <b>💻 Sunucu:</b> <span style='color:red;'>cloudflare</span>             </div>             </div>`)[0];
+                popup_08c5a242a530d4e66f983ecbcef70761.setContent(html_f4d0908f6f01e3185dbd3a11d54bca9f);
+            
+        
+
+        marker_6a8762e0d7e09511e9bca21d8949be2c.bindPopup(popup_08c5a242a530d4e66f983ecbcef70761)
+        ;
+
+        
+    
+    
+                marker_6a8762e0d7e09511e9bca21d8949be2c.setIcon(icon_8afac2d7cd993c6d26fbe5b02ec04331);
+            
+    
+            var marker_fcc6e5d7d62f6231c0fee06fac5a594a = L.marker(
+                [50.4777, 12.3649],
+                {
+}
+            ).addTo(map_80c2bad2a667b5388e769d28f37678e0);
+        
+    
+            var icon_8987d9528a458f7db35d952525d6eb21 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "crosshairs",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_577467efde79d54f341dcf2dce76d1d8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_032c8eb9aa258662e4396e7b839e6637 = $(`<div id="html_032c8eb9aa258662e4396e7b839e6637" style="width: 100.0%; height: 100.0%;">             <div style='width:200px'>             <b>🏛️ VesselFinder (OSINT Aracı)</b><br>             <b>🔗 Domain:</b> vesselfinder.com<br>             <b>🌐 IP:</b> 159.69.101.70<br>             <b>📍 Konum:</b> Germany / Falkenstein<br>             <b>🏢 ISP:</b> Hetzner Online GmbH<br>             <b>💻 Sunucu:</b> <span style='color:red;'>Bağlantı Reddedildi (Muhtemel Güvenlik Duvarı)</span>             </div>             </div>`)[0];
+                popup_577467efde79d54f341dcf2dce76d1d8.setContent(html_032c8eb9aa258662e4396e7b839e6637);
+            
+        
+
+        marker_fcc6e5d7d62f6231c0fee06fac5a594a.bindPopup(popup_577467efde79d54f341dcf2dce76d1d8)
+        ;
+
+        
+    
+    
+                marker_fcc6e5d7d62f6231c0fee06fac5a594a.setIcon(icon_8987d9528a458f7db35d952525d6eb21);
+            
+    
+            var marker_81022962744f96c15b45f5dab96230b5 = L.marker(
+                [39.0469, -77.4903],
+                {
+}
+            ).addTo(map_80c2bad2a667b5388e769d28f37678e0);
+        
+    
+            var icon_223dcefaa174beef147b39d272e954b7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "crosshairs",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2a60d9893a8f341598138932b0d413f8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3cce7286c367a8f9ca5a4bd8960b25bc = $(`<div id="html_3cce7286c367a8f9ca5a4bd8960b25bc" style="width: 100.0%; height: 100.0%;">             <div style='width:200px'>             <b>🏛️ ABD 5. Filo (Bahreyn Üssü)</b><br>             <b>🔗 Domain:</b> cusnc.navy.mil<br>             <b>🌐 IP:</b> 23.53.35.198<br>             <b>📍 Konum:</b> United States / Ashburn<br>             <b>🏢 ISP:</b> Akamai International B.V.<br>             <b>💻 Sunucu:</b> <span style='color:red;'>AkamaiGHost</span>             </div>             </div>`)[0];
+                popup_2a60d9893a8f341598138932b0d413f8.setContent(html_3cce7286c367a8f9ca5a4bd8960b25bc);
+            
+        
+
+        marker_81022962744f96c15b45f5dab96230b5.bindPopup(popup_2a60d9893a8f341598138932b0d413f8)
+        ;
+
+        
+    
+    
+                marker_81022962744f96c15b45f5dab96230b5.setIcon(icon_223dcefaa174beef147b39d272e954b7);
+            
+</script>
+</html>

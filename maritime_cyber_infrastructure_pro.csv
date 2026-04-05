@@ -1,0 +1,10 @@
+Kurum,Domain,IP Adresi,Ülke,ISP,Sunucu Teknolojisi
+BAE DP World (Dev Liman),dpworld.com,162.159.141.157,Canada,"Cloudflare, Inc.",cloudflare
+Umman Limanları,asyad.om,77.83.61.24,Oman,OMANIA,Gizlenmiş/Bulunamadı
+Kuveyt Liman İdaresi,kpa.gov.kw,20.254.225.239,United Kingdom,Microsoft Corporation,Apache
+Suudi Arabistan Limanları,mawani.gov.sa,212.70.48.27,Saudi Arabia,Atheer Jeraisy Backbone,Bağlantı Reddedildi (Muhtemel Güvenlik Duvarı)
+Katar Liman Yönetimi,mwani.com.qa,20.173.78.81,Qatar,Microsoft Corporation,Gizlenmiş/Bulunamadı
+Bahreyn Limanları,mtt.gov.bh,108.132.42.90,Ireland,BellSouth.net Inc.,
+MarineTraffic (OSINT Aracı),marinetraffic.com,104.18.9.70,Canada,"Cloudflare, Inc.",cloudflare
+VesselFinder (OSINT Aracı),vesselfinder.com,159.69.101.70,Germany,Hetzner Online GmbH,Bağlantı Reddedildi (Muhtemel Güvenlik Duvarı)
+ABD 5. Filo (Bahreyn Üssü),cusnc.navy.mil,23.53.35.198,United States,Akamai International B.V.,AkamaiGHost
